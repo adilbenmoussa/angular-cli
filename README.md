@@ -7,11 +7,11 @@ Find [the image here](https://hub.docker.com/r/adilbenmoussa/angular-cli/)
 Pulling the image
 
 ```bash
-docker pull adilbenmoussa/angular-cli
+docker pull adilbenmoussa/angular-cli:1.0
 ```
 
 Using the image in a `Dockerfile`
 
 ```bash
-FROM adilbenmoussa/angular-cli
+FROM adilbenmoussa/angular-cli:1.0
 ```
