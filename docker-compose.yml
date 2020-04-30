@@ -1,0 +1,8 @@
+version: '1.0'
+
+services:
+  angular-cli:
+    image: adilbenmoussa/angular-cli
+    build: .
+    environment:
+      NODE_ENV: production
